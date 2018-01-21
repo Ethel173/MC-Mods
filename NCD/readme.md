@@ -1,0 +1,1 @@
+makes creepers not destroy anything on exploding
