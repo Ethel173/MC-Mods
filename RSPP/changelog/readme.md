@@ -7,3 +7,9 @@
 	added proper support for mod info file, yay
 	no more spamming console b/c of above, yay
 	removed code for pistons b/c they are already transparent, yay
+	
+1.52R
+	
+	forgot to cast as float 
+	redstone wire should actually show up now
+	whoops
