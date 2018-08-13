@@ -1,0 +1,18 @@
+package com.Ethel.CBBS;
+
+import net.minecraft.init.Blocks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
+@Mod(modid = "CBBS", version = "1.0R", name = "ConsistentBlockBreakingSpeed")
+
+public class CBBS {
+	@EventHandler
+	public void init(FMLPostInitializationEvent event) {
+		Blocks.COBBLESTONE.setHardness(1.5F);
+		Blocks.COBBLESTONE_WALL.setHardness(1.5F);
+		Blocks.GRASS.setHardness(0.5F);
+		Blocks.GRASS_PATH.setHardness(0.5F);
+	}
+}
