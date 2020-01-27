@@ -1,16 +1,16 @@
-package com.Ethel.RedStonePerfPack;
+package com.ethel.RedStonePerfPack;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = RSPP.MODID, name = RSPP.MODNAME, version = RSPP.VERSION)
-public class RSPP {
+@Mod(modid = rspp.MODID, name = rspp.MODNAME, version = rspp.VERSION)
+public class rspp {
 
-    public static final String MODID = "RSPP";
+    public static final String MODID = "rspp";
     public static final String MODNAME = "RedStonePerfPack";
-    public static final String VERSION = "1.52R-ZLL";
+    public static final String VERSION = "1.53R";
 
     @EventHandler
     public void init(FMLInitializationEvent e) {
