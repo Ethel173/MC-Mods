@@ -29,8 +29,8 @@ public void Creeper(LivingUpdateEvent  event) {
 		int fuseTime = ((Integer) ReflectionHelper.getPrivateValue(EntityCreeper.class, creeper, FUSE_TIME)).intValue();
 		if (ignitedTime >= fuseTime - 1) {
 			creeper.setDead();
-			boom(creeper);}}}
-
+			boom(creeper);}}
+			}
 private void boom(EntityCreeper creeper) {
 	float explosionStrength = creeper.getPowered() ? 2.0F : 1.0F;
 	double posx = creeper.posX;
